@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "buildbot",
+  "version": "${version}",
+  "name": "Build Bot Mod",
+  "description": "Spawns a bot that follows LLM-generated plans to build structures.",
+  "authors": [
+    "Codex"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.buildbot.BuildBotMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
